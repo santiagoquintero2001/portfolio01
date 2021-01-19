@@ -57,6 +57,17 @@ section {
     color: black;
 }
 
+#footer {
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+
+
+#contact {
+    background-color: black;
+}
+
 .portfolio-container {
     position: relative;
     overflow: hidden;
@@ -92,3 +103,41 @@ section {
     margin: 0 auto 60px auto;
     text-align: center;
 }
+
+.contact-section {
+    padding-bottom: 10px;
+}
+
+.contact-section .social {
+    margin-top: 45px;
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-section .social a:active {
+    color: #fff;
+}
+
+.footer-details p {
+    display: block;
+    color:#6c757d;
+}
+
+.hr-edit {
+    background-color: blue;
+    height: 10px;
+    margin-left: 32%;
+    width: 35%;
+  }
